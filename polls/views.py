@@ -5,3 +5,12 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse('Hello World! This is the polls index')
+
+def detail(request, question_id):
+    return HttpResponse()
+
+def results(request, question_id):
+    return HttpResponse()
+
+def vote(request, question_id):
+    return HttpResponse()
